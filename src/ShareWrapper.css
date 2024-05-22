@@ -1,0 +1,69 @@
+
+  #share-wrapper {
+    position: fixed;
+    top: calc(50% - 20px);
+    right: 20px;
+    height: 40px;
+    transform: translateY(-50%);
+  }
+  
+  #share-wrapper ul {
+    width: calc(5 * 45px); /* Adjust according to the number of columns */
+    position: relative;
+    left: calc(-50% + 22.5px);
+  }
+  
+  #share-wrapper li {
+    width: 45px;
+  }
+  
+  #share-wrapper li > a,
+  #share-wrapper label {
+    color: #efefef;
+    border-radius: 50%;
+    text-decoration: none;
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.45rem;
+    cursor: pointer;
+    transition: all 200ms ease;
+  }
+  
+  #share-wrapper label#share {
+    background: #4267b2;
+    position: relative;
+    z-index: 14;
+    opacity: 0.75;
+  }
+  
+  #share-wrapper label#share:hover {
+    background: #4080ff;
+  }
+  
+  #share-wrapper .share-google-bookmarks {
+    background: #4285F4;
+  }
+  
+  #share-wrapper .share-flipboard {
+    background: #CC0000;
+  }
+  
+  #share-wrapper .share-hacker-news {
+    background: #FF6600;
+  }
+  
+  /* Add other share button styles as needed */
+  
+  #share-wrapper ul li {
+    opacity: 0;
+    transform: translateY(-30%);
+    z-index: 14;
+    transition: all 200ms ease;
+  }
+  
+  #share-wrapper input:checked ~ label,
+  #share-wrapper input:checked ~ ul li {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  

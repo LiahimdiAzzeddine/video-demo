@@ -1,7 +1,5 @@
 import Navbar from './components/navbar';
-import ProgressBar from './components/ProgressBar';
 import Section from './components/Section';
-
 import './App.css';
 
 function App() {
@@ -13,6 +11,7 @@ function App() {
         <div className="page-bg"></div>
         <Navbar />
         <Section/>
+        
       </div>
     </div>
   );
