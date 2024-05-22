@@ -993,8 +993,5 @@ margin-top: 20px;
             bottom: 10%;
            right:20%;
         }
-        .section-1 {
-            position: relative;
-            height: 90vh !important;
-        }
+
 }
