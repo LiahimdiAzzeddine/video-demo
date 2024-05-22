@@ -11,7 +11,6 @@ function App() {
         <div className="page-bg"></div>
         <Navbar />
         <Section/>
-        
       </div>
     </div>
   );

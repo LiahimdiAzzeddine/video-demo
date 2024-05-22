@@ -1,5 +1,5 @@
 import React, { useState, useRef,useEffect } from 'react';
-import { motion, useSpring } from "framer-motion";
+import { motion } from "framer-motion";
 import videoFile from "../videos/FirstDraft.mp4";
 import Image from "../videos/placeholder-image.png";
 import { FaPlay } from "react-icons/fa6";
