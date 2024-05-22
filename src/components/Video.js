@@ -5,7 +5,7 @@ import Image from "../videos/placeholder-image.png";
 import { FaPlay } from "react-icons/fa6";
 import Magnetic from "./Magnetic";
 import Logo from "../logo.png";
-const Video = ({ src }) => {
+const Video = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -34,11 +34,6 @@ const Video = ({ src }) => {
       videoRef.current.play();
     }
     setIsPlaying(!isPlaying);
-  };
-  const handleClick = () => {
-    setIsClicked(false);
-    setIsPlaying(false);
-    videoRef.current.play();
   };
 
 
@@ -115,7 +110,6 @@ const Video = ({ src }) => {
                 position: 'absolute',
                 top: `${mousePosition.y}px`,
                 left: `${mousePosition.x}px`,
-                fontSize: '16px',
                 width:"7rem",
                 height:"7rem",
                 fontSize: '24px',
