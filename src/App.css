@@ -834,12 +834,7 @@ html {
     html{
         font-size: 35%;
     }
-    .logo{
-        font-size: 1.7rem;
-        top: 13rem;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+
     .navbar{
         justify-content: center;
         padding: 0;
@@ -990,7 +985,7 @@ margin-top: 20px;
         margin-top: 0px !important;
         }        
         .buttons {
-            bottom: 14vh;
+            bottom: 16vh;
            right:20%;
         }
 
