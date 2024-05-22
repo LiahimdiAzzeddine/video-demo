@@ -985,8 +985,11 @@ margin-top: 20px;
         margin-top: 0px !important;
         }        
         .buttons {
-            bottom: 16vh;
+            bottom: 14vh;
            right:20%;
         }
-
+        .section-1 {
+            position: relative;
+            height: 95vh !important;
+        }
 }
