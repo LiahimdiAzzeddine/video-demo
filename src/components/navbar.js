@@ -1,10 +1,12 @@
 import React from 'react';
+import Logo from "../logo.png";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/**
-      <a href="#section-1" className="navbar-link pointer-enter">Home</a> */}
+          <a href="#" className="logo">
+      <img src={Logo} alt="Dinomite Logo" className="logo-img" />
+    </a>
     </nav>
   );
 };

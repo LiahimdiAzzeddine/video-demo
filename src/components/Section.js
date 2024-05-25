@@ -6,9 +6,7 @@ import Video from "./Video";
 const Section = () => {
 
   return (
-
         <Video />
-      
   );
 };
 

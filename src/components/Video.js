@@ -4,7 +4,8 @@ import videoFile from "../videos/FirstDraft.mp4";
 import Image from "../videos/placeholder-image.png";
 import { FaPlay } from "react-icons/fa6";
 import Magnetic from "./Magnetic";
-import Logo from "../logo.png";
+
+
 const Video = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -56,9 +57,6 @@ const Video = () => {
 
   return (
     <div className="section-1 center" id="section-1">
-    <a href="#" className="logo">
-      <img src={Logo} alt="Dinomite Logo" className="logo-img" />
-    </a>
     <div className="main-circle center">
     <motion.div
     initial={{
@@ -74,8 +72,8 @@ const Video = () => {
     whileTap={{ scale: 0.95 }}
     animate={{
       borderRadius: isClicked ? "0%" : "50%",
-      width: isClicked ? (isMobile ? '90vw':'850px') :(isMobile ? '65vw':'505px'),
-      height: isClicked ? (isMobile ? '50vw':'500px') : (isMobile ? '65vw':'500px'),
+      width: isClicked ? (isMobile ? '90vw':'700px') :(isMobile ? '65vw':'455px'),
+      height: isClicked ? (isMobile ? '50vw':'400px') : (isMobile ? '65vw':'450px'),
     }}
     transition={{ duration: 0.4 }}
     style={{
@@ -151,9 +149,9 @@ const Video = () => {
       
     </motion.div>
     </div>
-    <div className="buttons">
+    <div className="buttons" >
         <Magnetic>
-        <a href="#" class={isPlaying?'pause':'play'} onClick={handleVideoClick}  ></a>
+        <a href="#" className={isPlaying?'pause':'play'} onClick={handleVideoClick}  ></a>
         </Magnetic>
       </div>
     </div>
