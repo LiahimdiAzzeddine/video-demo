@@ -10,7 +10,7 @@ const Section2 = () => {
   return (
     <div className="footer text-white p-4">
       <div className="w-2/5 mx-auto mb-4 text-center">
-        <h2 className="text-[2rem] mb-4">Partners</h2>
+        <h2 className="text-[2.5rem] mb-4">Partners</h2>
         <div className="flex flex-row justify-around">
           <div><img className='partnert hover:text-[#42bba8]' src={yomi_games} alt="Yomi Games" /></div>
           <div><img className='partnert hover:text-[#42bba8]' src={yalo} alt="Yalo" /></div>
@@ -19,7 +19,7 @@ const Section2 = () => {
         </div>
       </div>
       <div className="w-1/3 mx-auto text-center">
-        <h2 className="text-[2rem] mb-4">Contact</h2>
+        <h2 className="text-[2.5rem] mb-4">Contact</h2>
         <div className="flex flex-row-reverse justify-around">
           <div className="flex items-center mb-2 hover:text-[#42bba8]">
             <FaMapMarkerAlt size={24} className="mr-2" />
