@@ -23,7 +23,7 @@ const Section2 = () => {
         <div className="flex flex-row-reverse justify-around">
           <div className="flex items-center mb-2 hover:text-[#42bba8]">
             <FaMapMarkerAlt size={24} className="mr-2" />
-            <a href="https://www.google.com/maps/place/123+Rue+Principale,+Ville" target="_blank" rel="noopener noreferrer">
+            <a href="https://maps.app.goo.gl/fz2SZ19aguAHfc7K8" target="_blank" rel="noopener noreferrer">
               <span className='text-[1.2rem]'>Technopar, Ave Mohammed V, Tangier 90000</span>
             </a>
           </div>
