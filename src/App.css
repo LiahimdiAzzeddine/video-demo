@@ -118,7 +118,6 @@ html {
 /* Mouse Circle */
 .mouse-circle,
 .mouse-dot {
-    border-radius: 50%;
     position: fixed;
     z-index: 300;
     transform: translate(-50%,-50%);
@@ -127,15 +126,11 @@ html {
 }
 
 .mouse-circle {
-    width: 6rem;
     height: 6rem;
     border: 0.1rem solid #c7a622;
     animation: mouseCircleAnim 10s infinite linear;
 }
 .mouse-dot {
-    width: .5rem;
-    height: .5rem;
-    background: #9b0e0e;
     animation: mouseDotAnim 10s infinite linear;
 }
 @keyframes mouseDotAnim {
@@ -904,11 +899,11 @@ margin-top: 20px;
     right: 25%;
   }
   .partnert{
-    max-height: 4rem;
-    min-height: 3.5rem;
+    max-height: 3.5rem;
+    min-height: 3rem;
   }
   .partnertmagma{
-    max-height: 5rem;
+    max-height: 4.5rem;
     min-height: 4rem;
   }
   .footer{

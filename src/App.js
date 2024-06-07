@@ -7,8 +7,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="mouse-circle"></div>
-      <div className="mouse-dot"></div>
+      <div className="mouse-circle max-w-7xl"></div>
+      <div className="mouse-dot max-w-7xl"></div>
       <div className="containeraz">
         <Navbar />
         <Section/>
